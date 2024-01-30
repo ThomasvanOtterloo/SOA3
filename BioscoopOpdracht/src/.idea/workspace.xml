@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd35392e-528c-46c0-a9c3-5cfc76c8386f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BioscoopOpdracht.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enums/DayOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enums/TicketExportFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exporter/ExportFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exporter/IExportOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exporter/JSONExport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exporter/PlainTextExport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieScreening.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2bh4TRq275He4IrzGjNRh8giSI1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/school/Jaar3/P1/SOA3/SOA3/BioscoopOpdracht/src"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd35392e-528c-46c0-a9c3-5cfc76c8386f" name="Changes" comment="" />
+      <created>1706653983670</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706653983670</updated>
+    </task>
+    <servers />
+  </component>
+</project>
