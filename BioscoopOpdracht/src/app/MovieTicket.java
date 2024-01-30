@@ -3,11 +3,11 @@ package app;
 import Enums.DayOfWeek;
 
 public class MovieTicket {
-    private int rowNr;
-    private int searNr;
-    private boolean isPremium;
+    private final int rowNr;
+    private final int searNr;
+    private final boolean isPremium;
 
-    private MovieScreening movieScreening;
+    private final MovieScreening movieScreening;
     private double ticketPrice;
 
     public MovieTicket(int rowNr, int searNr, boolean isPremium, MovieScreening movieScreening) {
@@ -16,6 +16,7 @@ public class MovieTicket {
         this.isPremium = isPremium;
         this.movieScreening = movieScreening;
     }
+
     public boolean isPremiumTicket() {
         return isPremium;
     }
@@ -25,11 +26,11 @@ public class MovieTicket {
     }
 
 
-    public void setPrice( boolean isStudent, boolean isPremium) {
+    public void setPrice(boolean isStudent, boolean isPremium) {
         setBasePrice();
         if (isPremium && isStudent) {
             this.ticketPrice = ticketPrice + 2.0;
-        } else if(isPremium && !isStudent) {
+        } else if (isPremium && !isStudent) {
             this.ticketPrice = ticketPrice + 3.0;
         }
     }
@@ -44,6 +45,7 @@ public class MovieTicket {
 
     public DayOfWeek getDayOfMovie() {
         return movieScreening.getDateAndTime();
+        //  return DayOfWeek.SATURDAY;
     }
 
     public String toString() {

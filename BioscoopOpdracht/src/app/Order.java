@@ -1,5 +1,6 @@
 package app;
 
+import Enums.DayOfWeek;
 import Enums.TicketExportFormat;
 import Exporter.ExportFactory;
 import Exporter.IExportOrder;
@@ -74,7 +75,10 @@ public class Order {
 
             private boolean isWeekDay() {
                 for (MovieTicket ticket : ticketAmount) {
-                    if (ticket.getDayOfMovie().equals("MONDAY") || ticket.getDayOfMovie().equals("TUESDAY") || ticket.getDayOfMovie().equals("WEDNESDAY") || ticket.getDayOfMovie().equals("THURSDAY")) {
+                    if (ticket.getDayOfMovie().equals(DayOfWeek.MONDAY) ||
+                            ticket.getDayOfMovie().equals(DayOfWeek.TUESDAY) ||
+                            ticket.getDayOfMovie().equals(DayOfWeek.WEDNESDAY) ||
+                            ticket.getDayOfMovie().equals(DayOfWeek.THURSDAY) ) {
                         return true;
                     } else {
                         return false;
