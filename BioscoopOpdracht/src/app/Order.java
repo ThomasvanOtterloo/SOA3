@@ -47,7 +47,7 @@ public class Order {
             totalPrice += ticket.getPrice();
         }
 
-        if (!isStudentOrder && !isWeekDay()) {
+        if (!isStudentOrder && !isWeekDay() && tickets.size() > 5) {
             totalPrice *= 0.9;
         }
 
