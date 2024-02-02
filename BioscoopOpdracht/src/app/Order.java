@@ -56,9 +56,9 @@ public class Order {
 
     private void applyDiscount() {
         if (isStudentOrder || isWeekDay()) {
-            for (int i = 0; i <= tickets.size() - 1; i++) {
+            for (int i = 1; i <= tickets.size(); i++) {
                 if (i % 2 == 0) {
-                    tickets.get(i).setPriceForFree();
+                    tickets.get(i-1).setPriceForFree();
                     i++;
                 }
             }
