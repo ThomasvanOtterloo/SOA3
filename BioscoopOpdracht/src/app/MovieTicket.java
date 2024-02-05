@@ -10,9 +10,9 @@ public class MovieTicket {
     private final MovieScreening movieScreening;
     private double ticketPrice;
 
-    public MovieTicket(int rowNr, int searNr, boolean isPremium, MovieScreening movieScreening) {
+    public MovieTicket(int rowNr, int seatNr, boolean isPremium, MovieScreening movieScreening) {
         this.rowNr = rowNr;
-        this.searNr = searNr;
+        this.searNr = seatNr;
         this.isPremium = isPremium;
         this.movieScreening = movieScreening;
     }
