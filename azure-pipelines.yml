@@ -14,6 +14,6 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
+    javac -d out -cp .:junit-platform-console-standalone-1.8.1.jar src/*.java test/*.java
+    java -jar junit-platform-console-standalone-1.8.1.jar --class-path out --scan-class-path
   displayName: 'Run a multi-line script'
