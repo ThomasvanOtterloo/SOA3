@@ -14,6 +14,6 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
-    javac -d out -cp .:junit-platform-console-standalone-1.8.1.jar bioscoopopdracht/src/app/ordertest.java
+    javac -d out -cp .:junit-platform-console-standalone-1.8.1.jar src/*.java test/*.java
     java -jar junit-platform-console-standalone-1.8.1.jar --class-path out --scan-class-path
   displayName: 'Run a multi-line script'
