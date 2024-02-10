@@ -51,7 +51,7 @@ class OrderTest {
 
     // testcase 4
     @Test
-    void IsWeekDayAndNotStudentOneTicket(){
+    void TestIsWeekDayAndNotStudentOneTicket(){
         // Arrange
         Movie movie = new Movie("The Matrix");
         MovieScreening movieScreening = new MovieScreening(LocalDateTime.now().plusDays(4), 10.0, movie);
