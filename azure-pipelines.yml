@@ -10,6 +10,8 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+  - checkout: self
+    fetchDepth: 0   # Add this line to disable shallow clone
   - task: Maven@3
     inputs:
       mavenPomFile: 'DevOps/pom.xml'
