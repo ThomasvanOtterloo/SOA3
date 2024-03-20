@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 trigger:
-- main
+- master
 
 pool:
   vmImage: ubuntu-latest
@@ -12,7 +12,7 @@ pool:
 steps:
   - task: Maven@3
     inputs:
-      mavenPomFile: 'BioscoopOpdracht/pom.xml'
+      mavenPomFile: 'DevOps/pom.xml'
       mavenOptions: '-Xmx3072m'
       javaHomeOption: 'JDKVersion'
       jdkVersionOption: '1.8'
