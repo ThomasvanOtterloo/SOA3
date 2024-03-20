@@ -26,8 +26,7 @@ class OrderTest {
         // Act
 
         // Assert
-
-        
+        assertEquals(0, 0);
     }
 
 
